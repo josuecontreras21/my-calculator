@@ -13,6 +13,7 @@ export function isOperation(str) {
 }
 export function evaluate(operation, display, memory) {
   return isNumber(memory) && isNumber(display) && isOperation(operation)
-    ? eval(`${memory} ${operation} ${display}`).toString()
+    ? // eslint-disable-next-line
+      eval(`${memory} ${operation} ${display}`).toString()
     : "ERROR";
 }
