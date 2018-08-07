@@ -15,10 +15,6 @@ npm install
 ```
 
 ```
-cd my-calculator/
-```
-
-```
 npm start
 ```
 
