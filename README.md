@@ -15,7 +15,7 @@ npm install
 ```
 
 ```
-cd /my-calculator
+cd my-calculator/
 ```
 
 ```
